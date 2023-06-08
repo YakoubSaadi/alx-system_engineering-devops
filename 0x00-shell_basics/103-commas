@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -a | sort -d -k1.1 | tr '\n' ',' | sed 's/,$/\n/'
+ls -p -a | sort -d -k1.1 | tr '\n' ',' | sed ' s/,$/\n/'
